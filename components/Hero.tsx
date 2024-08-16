@@ -85,10 +85,10 @@ const Hero = () => {
       <div className="flex flex-1 xl:flexEnd">
         {/* Background Image from HERO constant */}
         <Image
-          src={HERO[0].imgURL}
-          alt={HERO[0].title}
-          height={480}
-          width={480}
+          src="/foto.svg"
+          alt="foto"
+          width={488}
+          height={488}
           className="w-auto"
         />
       </div>

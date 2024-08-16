@@ -145,10 +145,10 @@ const About = () => {
 
         <div className="flex-1 flexCenter">
           <Image
-            src={imgURL} // Menggunakan variabel imgURL
-            alt={title} // Menggunakan variabel title
-            height={233}
-            width={233}
+            src="/foto.svg"
+            alt="foto"
+            height={333}
+            width={333}
             className="w-auto rounded-full shadow"
           />
         </div>
