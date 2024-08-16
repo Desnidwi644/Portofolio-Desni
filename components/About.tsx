@@ -141,12 +141,9 @@ const About = () => {
         </div>
 
         <div className="flex-1 flexCenter">
-          <Image
-            src="/image/about.png"
-            alt="About image"
-            height={233}
-            width={233}
-            className="w-auto rounded-full shadow"
+          <div
+            className="w-[233px] h-[233px] bg-[url('/image/about.png')] bg-no-repeat bg-cover bg-center rounded-full shadow"
+            aria-label="About image"
           />
         </div>
       </div>

@@ -39,7 +39,7 @@ const Hero = () => {
           </span>
         </h2>
         <p className="regular-16 max-w-[555px] my-4">
-          Student majoring in informatics, Udayana University&#39;
+          'Student majoring in informatics, Udayana University&#39;
         </p>
 
         <div className="my-5 flex flex-wrap gap-5">
@@ -82,12 +82,9 @@ const Hero = () => {
       {/* RIGHT */}
 
       <div className="flex flex-1 xl:flexEnd">
-        <Image
-          src="/image/bg.png"
-          alt="Background image"
-          width={400}
-          height={400}
-          className="w-auto"
+        <div
+          className="w-[400px] h-[400px] bg-[url('/image/bg.png')] bg-no-repeat bg-cover bg-center"
+          aria-label="Background image"
         />
       </div>
     </section>
