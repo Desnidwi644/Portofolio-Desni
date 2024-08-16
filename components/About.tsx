@@ -141,7 +141,7 @@ const About = () => {
         </div>
 
         <div className="flex-1 flexCenter">
-          <Image
+          <img
             src="/image/about.png"
             alt="About image"
             height={233}
