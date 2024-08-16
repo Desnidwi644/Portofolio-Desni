@@ -82,7 +82,7 @@ const Hero = () => {
       {/* RIGHT */}
 
       <div className="flex flex-1 xl:flexEnd">
-        <img
+        <Image
           src="/image/bg.png"
           alt="Background image"
           width={400}
