@@ -142,7 +142,7 @@ const About = () => {
 
         <div className="flex-1 flexCenter">
           <Image
-            src="/about.png"
+            src="/image/about.png"
             alt="About image"
             height={233}
             width={233}
