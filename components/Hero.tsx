@@ -42,8 +42,8 @@ const Hero = () => {
           Student majoring in informatics, Udayana University&#39;
         </p>
 
-        <div className=" my-5 flex flex-wrap gap-5">
-          <div className=" flex items-center gap-2">
+        <div className="my-5 flex flex-wrap gap-5">
+          <div className="flex items-center gap-2">
             {Array(4)
               .fill(1)
               .map((_, index) => (
@@ -84,7 +84,7 @@ const Hero = () => {
       <div className="flex flex-1 xl:flexEnd">
         <Image
           src="/bg.png"
-          alt="bg"
+          alt="Background image"
           width={500}
           height={500}
           className="w-auto"

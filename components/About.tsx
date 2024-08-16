@@ -3,7 +3,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Button from "./Button";
-import Layout from "../app/layout";
 
 const About = () => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -11,7 +10,7 @@ const About = () => {
 
   const handleReadMore = () => {
     setIsExpanded(true);
-    setSelectedSection(null); // Reset section selection
+    setSelectedSection(null);
   };
 
   const handleSectionClick = (section: string) => {
@@ -20,7 +19,7 @@ const About = () => {
 
   const handleClose = () => {
     setIsExpanded(false);
-    setSelectedSection(null); // Reset section selection
+    setSelectedSection(null);
   };
 
   const renderSectionContent = () => {
@@ -144,7 +143,7 @@ const About = () => {
         <div className="flex-1 flexCenter">
           <Image
             src="/about.png"
-            alt="about"
+            alt="About image"
             height={333}
             width={333}
             className="w-auto rounded-full shadow"
