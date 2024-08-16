@@ -144,8 +144,8 @@ const About = () => {
           <Image
             src="/about.png"
             alt="About image"
-            height={333}
-            width={333}
+            height={233}
+            width={233}
             className="w-auto rounded-full shadow"
           />
         </div>

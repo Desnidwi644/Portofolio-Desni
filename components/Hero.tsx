@@ -85,8 +85,8 @@ const Hero = () => {
         <Image
           src="/bg.png"
           alt="Background image"
-          width={500}
-          height={500}
+          width={400}
+          height={400}
           className="w-auto"
         />
       </div>
