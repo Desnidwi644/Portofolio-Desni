@@ -39,7 +39,7 @@ const Hero = () => {
           </span>
         </h2>
         <p className="regular-16 max-w-[555px] my-4">
-          Student majoring in informatics, Udayana University &#39;
+          Student majoring in informatics, Udayana University&#39;
         </p>
 
         <div className=" my-5 flex flex-wrap gap-5">

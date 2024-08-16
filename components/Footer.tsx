@@ -1,9 +1,12 @@
-import { FOOTER_LINKS, SOCIALS } from "@/constants";
+import { SOCIALS } from "@/constants";
 import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 
 const Footer = () => {
+  console.log("Footer is rendered");
+  console.log("Rendering Footer");
+
   return (
     <footer
       id="footer"
@@ -11,19 +14,7 @@ const Footer = () => {
     >
       <div className="flex flex-col gap-14 md:flex-row justify-between pb-16">
         <div className="flex-1 md:w-2/3">
-          <ul className="flex flex-col gap-2 md:flex-row md:gap-6">
-            {FOOTER_LINKS.map((link) => (
-              <li key={link.key}>
-                <Link
-                  href={link.href}
-                  className="block p-4 text-[15px] font-[500] hover:text-blue-500"
-                >
-                  {link.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-          <div className="mt-8 p-4 border border-gray-30 rounded-md">
+          <div className="mt-8 p-6 border border-gray-30 rounded-md bg-white text-black">
             <h3 className="text-lg font-bold mb-2">Description</h3>
             <p>
               Thank you for viewing my portfolio. For further information, you
@@ -35,7 +26,7 @@ const Footer = () => {
         <div className="md:w-1/3 flex flex-col items-end">
           <div className="mb-8 p-4 border border-gray-30 rounded-md flex items-center gap-2">
             <Image
-              src="lokasi.svg"
+              src="/lokasi.svg"
               alt="Location Icon"
               width={20}
               height={20}

@@ -3,7 +3,6 @@ import About from "@/components/About";
 import Hero from "@/components/Hero";
 import Skills from "@/components/Skills";
 import Portofolio from "@/components/Portofolio";
-import Footer from "@/components/Footer"; // Import Footer
 
 const Page = () => {
   return (
@@ -21,7 +20,6 @@ const Page = () => {
       <section id="portofolio">
         <Portofolio />
       </section>
-      <Footer /> {/* Pastikan Footer di render terakhir */}
     </main>
   );
 };

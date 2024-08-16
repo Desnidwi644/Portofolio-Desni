@@ -1,8 +1,10 @@
-import type { Metadata } from "next";
+import { Metadata } from "next";
 import "../app/globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import React from "react";
+
+console.log("Rendering Footer");
 
 export const metadata: Metadata = {
   title: "Portofolio",
