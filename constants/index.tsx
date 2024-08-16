@@ -1,3 +1,5 @@
+import React from "react";
+
 // NAVIGATION
 export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home" },

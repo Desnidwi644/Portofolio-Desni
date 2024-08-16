@@ -1,17 +1,6 @@
 {
-  "extends": [
-    "next/core-web-vitals",
-    "eslint:recommended",
-    "plugin:react/recommended"
-  ],
+  "extends": "next/core-web-vitals",
   "rules": {
-    "react/no-unescaped-entities": "off",
-    "no-console": "warn",
-    "no-unused-vars": "warn"
-  },
-  "settings": {
-    "react": {
-      "version": "detect"
-    }
+    "react/no-unescaped-entities": "off"
   }
 }
