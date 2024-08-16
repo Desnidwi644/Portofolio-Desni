@@ -9,6 +9,20 @@ export const NAV_LINKS = [
   { href: "/", key: "footer", label: "Contact " },
 ];
 
+/// HERO SECTION
+export const HERO = [
+  {
+    title: "Background Image",
+    imgURL: "/background.png",
+  },
+];
+/// ABOUT SECTION
+export const ABOUT = [
+  {
+    title: "About Image",
+    imgURL: "/about.png",
+  },
+];
 // SKILL SECTION
 export const SKILLS = [
   {

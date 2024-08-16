@@ -65,6 +65,9 @@ const About = () => {
     }
   };
 
+  const imgURL = "/image/about.png"; // Deklarasi imgURL
+  const title = "About image"; // Deklarasi title
+
   return (
     <section className="max-container padding-container gap-20 py-10 pb-32 md:gap-28 lg:py-20 bg-[f7f7f7]">
       <div className="text-center bold-18 uppercase tracking-[1rem] text-blue-500 pb-20">
@@ -141,9 +144,12 @@ const About = () => {
         </div>
 
         <div className="flex-1 flexCenter">
-          <div
-            className="w-[233px] h-[233px] bg-[url('/image/about.png')] bg-no-repeat bg-cover bg-center rounded-full shadow"
-            aria-label="About image"
+          <Image
+            src={imgURL} // Menggunakan variabel imgURL
+            alt={title} // Menggunakan variabel title
+            height={233}
+            width={233}
+            className="w-auto rounded-full shadow"
           />
         </div>
       </div>

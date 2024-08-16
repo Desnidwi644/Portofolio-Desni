@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import Button from "./Button";
+import { HERO } from "../constants"; // Import the HERO constant
 
 const Hero = () => {
   return (
@@ -82,9 +83,13 @@ const Hero = () => {
       {/* RIGHT */}
 
       <div className="flex flex-1 xl:flexEnd">
-        <div
-          className="w-[400px] h-[400px] bg-[url('/image/bg.png')] bg-no-repeat bg-cover bg-center"
-          aria-label="Background image"
+        {/* Background Image from HERO constant */}
+        <Image
+          src={HERO[0].imgURL}
+          alt={HERO[0].title}
+          height={480}
+          width={480}
+          className="w-auto"
         />
       </div>
     </section>
