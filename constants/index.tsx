@@ -95,6 +95,12 @@ export const PORTOFOLIO = [
     description:
       "Project ini merupakan project dummy atau project bohong untuk menambah portofolio yang dibuat. Project ini dibuat dengan menganalisis jumlah kasus covid-19 yang ada di Indonesia setiap provinsinya",
   },
+  {
+    title: "Website",
+    imgURL: "/project4.png",
+    description:
+      "Project ini dibuat untuk mendesain portofolio menggunakan Next.js dan Tailwind CSS",
+  },
 ];
 
 // FOOTER SECTION
