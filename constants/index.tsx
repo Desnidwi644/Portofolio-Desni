@@ -101,6 +101,11 @@ export const PORTOFOLIO = [
     description:
       "Project ini dibuat untuk mendesain portofolio menggunakan Next.js dan Tailwind CSS",
   },
+  {
+    title: "Devtools",
+    imgURL: "/project5.png",
+    description: "Project ini dibuat menggunakan react,js dan komponet daisyUI",
+  },
 ];
 
 // FOOTER SECTION
