@@ -109,7 +109,7 @@ export const PORTOFOLIO = [
   },
 ];
 
-// FOOTER SECTION
+// FOOTER SECTION //
 export const SOCIALS = [
   {
     href: "https://github.com/Desnidwi644",
