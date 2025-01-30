@@ -103,9 +103,9 @@ export const PORTOFOLIO = [
   },
   {
     title: "Devtools",
-    imgURL: "/project5.png",
+    imgURL: "/project5.jpg",
     description:
-      "Project ini dibuat menggunakan react,js dan komponend yang dibantu dengan daisyUI ",
+      "Project ini dibuat menggunakan react.js dan komponend yang dibantu dengan daisyUI ",
   },
 ];
 
